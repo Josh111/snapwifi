@@ -12,7 +12,8 @@ function scanresults(err, results) {
     } else {
         aps = [];
         for (i = 0; i < results.length; i++) {
-            ap = results[i].address + ',' + results[i].essid + ',' + results[i].signal +
+//console.log(results);
+            ap = results[i].address + ',' + results[i].essid + ',' + results[i].dBm + ',' + results[i].signal +
              ',' + results[i].quality + ',' + results[i].channel;
             aps.push(ap);
         }

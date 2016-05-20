@@ -86,6 +86,7 @@ IW.prototype.scan = function (cb) {
             current.signal = Math.min(Math.max(2 * (qualitydBm + 100), 0), 100);
             //Such devices give quality as a fraction of 70.  Convert to percentage.
             current.quality = Math.round(current.quality * 100 / 70);
+	    current.dBm = qualitydBm;
         }
         }
     }

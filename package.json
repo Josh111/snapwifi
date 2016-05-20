@@ -1,0 +1,27 @@
+{
+  "name": "snapwifi",
+  "version": "0.0.1",
+  "description": "server for wifi triangulation",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Josh111/snapwifi.git"
+  },
+  "keywords": [
+    "wifi",
+    "triangulation",
+    "snap"
+  ],
+  "author": "Josh Harkins-Finn, Gary Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Josh111/snapwifi/issues"
+  },
+  "homepage": "https://github.com/Josh111/snapwifi#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
